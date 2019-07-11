@@ -1,17 +1,9 @@
 package main
 
-import (
-	"fmt"
-	"google.golang.org/grpc"
-	"net/http"
-)
 
-type Server struct {
-	gRPCConn *grpc.ClientConn
-	Server *http.Server
+
+type draftError struct {
+	errorCode int
+	errorMsg  string
 }
 
-func main(){
-	fmt.Println("hello")
-	err :=
-}
