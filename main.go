@@ -10,6 +10,7 @@ func main() {
 	c := hello3(hello2(hello1()))
 	fmt.Println(c("its c"))
 	fmt.Println("commit5")
+	fmt.Println("commit15")
 
 }
 
